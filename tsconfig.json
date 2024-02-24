@@ -25,15 +25,14 @@
         "baseUrl": ".",
         "types": [],
         "paths": {
-            "form-state/*": [
+            "~/*": [
                 "./src/*"
             ]
         }
     },
     "include": [
         "src/*.js",
-        "src/*.ts*",
-        "src/**/*.ts*",
+        "src/*.ts*"
     ],
     "exclude": [
         "node_modules/*",
