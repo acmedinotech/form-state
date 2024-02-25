@@ -5,8 +5,8 @@
   },
   "private": false,
   "version": "0.0.1",
-  "description": "<yarn:desc>",
-  "author": "<yarn:author>",
+  "description": "an intuitive approach to dynamic forms and application state.",
+  "author": "kaiser shahid <kaisershahid@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "react": "^18.2.0",
@@ -61,14 +61,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "<yarn:repository.url>"
+    "url": "https://github.com/acmedinotech/form-state.git"
   },
   "keywords": [
     "react",
     "forms"
   ],
   "bugs": {
-    "url": "<yarn:bugs.url>"
+    "url": "https://github.com/acmedinotech/form-state/issues"
   },
-  "homepage": "<yarn:homepage>"
+  "homepage": "https://github.com/acmedinotech/form-state"
 }
