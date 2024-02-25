@@ -4,7 +4,7 @@
     "access": "public"
   },
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "an intuitive approach to dynamic forms and application state.",
   "author": "kaiser shahid <kaisershahid@gmail.com>",
   "license": "MIT",
