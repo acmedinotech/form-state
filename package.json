@@ -4,7 +4,7 @@
     "access": "public"
   },
   "private": false,
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "an intuitive approach to dynamic forms and application state.",
   "author": "kaiser shahid <kaisershahid@gmail.com>",
   "license": "MIT",
@@ -31,7 +31,7 @@
   "scripts": {
     "test": "npx jest",
     "pack": "npm pack",
-    "release:validate": "yarn test && npx webpack --mode production && echo '✅ release ready to go' && echo git sha: `git rev-parse HEAD` && echo '> tag/publish with: yarn release'",
+    "release:validate": "rm -rf dist && yarn test && npx webpack --mode production && echo '✅ release ready to go' && echo git sha: `git rev-parse HEAD` && echo '> tag/publish with: yarn release'",
     "release": "node release.js"
   },
   "devDependencies": {
