@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { makeEventBus } from '../utils';
-import { getDataByPath, jsonClone } from '../formHelp';
+import { getDataByPath, jsonClone } from '../form';
 import type {
 	Action,
 	ActionEventHandler,
